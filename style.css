@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(97, 29%, 66%);
+    font-family: 'TT Hoves';
+    padding: 0px 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    border: solid 5px;
+}
+h4 {
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+input {
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+}
+button {
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: solid 2px gray;
+}
